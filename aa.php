@@ -13,6 +13,7 @@ $res=curl_exec($curl);
 
 //print_r($res);
 echo 'bye';
+tetet
 preg_match('#<title>(.*?)</title>#su',$res,$matches);
 $title=$matches[1];
 print_r($matches);
