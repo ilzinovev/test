@@ -12,7 +12,7 @@ curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);
 $res=curl_exec($curl);
 
 //print_r($res);
-echo 'bye';
+echo 'bye';dfasd
 tetet
 preg_match('#<title>(.*?)</title>#su',$res,$matches);
 $title=$matches[1];
